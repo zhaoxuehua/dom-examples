@@ -47,3 +47,38 @@ https://zhaoxuehua.github.io/dom-examples/dom1/15
 用户注册案例
 https://zhaoxuehua.github.io/dom-examples/dom1/16
 
+改变盒子大小与透明度案例
+https://zhaoxuehua.github.io/dom-examples/dom2/01
+
+文本框获取焦点并高亮显示
+https://zhaoxuehua.github.io/dom-examples/dom2/02
+
+隔行变色案例
+https://zhaoxuehua.github.io/dom-examples/dom2/03
+
+点击图片，修改body的背景色
+https://zhaoxuehua.github.io/dom-examples/dom2/04
+
+隐藏盒子
+https://zhaoxuehua.github.io/dom-examples/dom2/05
+
+定位于层级案例  点击按钮，显示层级低的图片
+https://zhaoxuehua.github.io/dom-examples/dom2/06
+
+创建列表
+https://zhaoxuehua.github.io/dom-examples/dom2/07
+
+祝愿墙模拟  克隆盒子，然后随机位置，点击纸条的时候压住其他的纸条。
+https://zhaoxuehua.github.io/dom-examples/dom2/08
+
+水果选择  盒子间内容与选中项的跳转
+https://zhaoxuehua.github.io/dom-examples/dom2/09
+
+模拟搜索
+https://zhaoxuehua.github.io/dom-examples/dom2/010
+
+模拟日历案例 
+https://zhaoxuehua.github.io/dom-examples/dom2/011
+
+倒计时案例
+https://zhaoxuehua.github.io/dom-examples/dom2/012
