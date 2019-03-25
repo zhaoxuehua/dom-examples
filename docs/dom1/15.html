@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>显示与隐藏二维码</title>
+    <style>
+        .nodeSmall {
+            width: 50px;
+            height: 50px;
+            background: url(image2/bgs.png) no-repeat -159px -51px;
+            position: absolute;
+            right: 80px;
+            top: 9px;
+        }
+        .erweima {
+            position: absolute;
+            top: 50px;
+            right: 2px;
+        }
+        .hide {
+            display: none;
+        }
+        .show {
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#" class="nodeSmall" id="node_small">
+        <!--制作精灵图，显示灰色小的二维码-->
+
+        <div class="erweima hide" id="er">
+            <img src="image2/456.png" alt="" />
+        </div>
+    </a>
+    <script>
+        //需求：鼠标放到a链接上，显示二维码（添加show类名，去掉hide类名）
+        //      鼠标移开a链接，隐藏二维码（添加hide类名，去掉show类名）
+        //步骤：
+        //1.获取事件源和相关元素
+        //2.绑定事件
+        //3.书写事件驱动程序
+        var a = document.getElementsByTagName("a")[0];
+        var img = document.getElementsByClassName("erweima")[0];
+        a.onmouseover = function () {
+            img.className = "show";
+        }
+        a.onmouseout = function () {
+            img.className = "hide";
+        }
+    </script>
+</body>
+
+</html>

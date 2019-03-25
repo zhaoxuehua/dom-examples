@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图片切换设计</title>
+    <style type="text/css">
+    img{
+        width:400px;
+        display: block;
+        margin:10px;
+    }
+    </style>
+
+</head>
+<body>
+    <a href="#" id="hit">切换</a>
+    <img src="image2/1.jpg" alt="" id="img">
+<script>
+    //需求：点击a链接，图片切换
+    //获取事件源,点击  a,a为事件源 和图片
+    var hit=document.getElementById("hit");
+    var img=document.getElementById("img");
+    hit.onclick=function(){
+        img.src="image2/2.jpg"
+
+    }
+</script>
+    
+</body>
+</html>

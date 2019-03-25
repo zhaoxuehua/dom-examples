@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrong {
+        border: 2px solid red;
+    }
+    .right {
+        border: 2px solid #91B81D;
+    }
+    </style>
+    
+</head>
+<body>
+        账号：<input type="text"  id="ii"/><br><br>
+        密码：<input type="password" />
+   <script>
+        //需求：失去焦点的时候判断input按钮中的值，如果账号或密码在6-12个字符之间通过，否则报错。
+        //步骤：
+        //1.获取事件源
+        //2.绑定事件
+        //3.书写事件驱动程序
+        var ii=document.getElementById("ii");
+        ii.onblur=function fn(){
+            //html中的input标签行内调用function的时候,是先通过window调用的function，所以打印this等于打印window
+//            console.log(this)
+            //只有传递的this才指的是标签本身。
+//            console.log(aaa)
+//            console.log(this.value)
+            if(this.value.length < 6 || this.value.length>12){
+                this.className = "wrong";
+            }else{
+                this.className = "right";
+            }
+        }
+
+   </script> 
+    
+</body>
+</html>

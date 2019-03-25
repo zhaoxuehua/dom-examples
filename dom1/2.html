@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dom基础学习</title>
+    <script src="dom.js"></script>
+    <style>
+        .top-banner {
+            background-color: pink;
+            height: 80px;
+        }
+
+        .w {
+            width: 1210px;
+            margin: 10px auto;
+            position: relative;
+            /*定位子绝父相 */
+        }
+
+        img {
+            width: 1210px;
+            height: 80px;
+            background-color: blue;
+        }
+
+        a {
+            position: absolute;
+            top: 1px;
+            right: 5px;
+            color: #fff;
+            width: 20px;
+            height: 20px;
+            background-color: #000;
+            text-decoration: none;
+            font: 700 14px/20px "sumsun";
+            text-align: center;
+        }
+
+        .hide {
+            display: none !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="top-banner" id="topBanner">
+        <div class="w">
+            <img src="" alt="">
+            <a href="#" id="closeBanner">×</a>
+        </div>
+    </div>
+    <script>
+        //     js是以事件驱动为核心的一门语言(事件源，事件，事件驱动程序)
+        // 步骤1、获取事件源 document.getElementById("")
+        // 步骤2、 绑定事件(事件源.事件=function({事件驱动程序}))
+        // 步骤3、书写事件驱动程序
+        // js加载问题和window.onload
+        // 关闭京东广告栏
+
+        //点击案例，隐藏盒子。
+        //思路：点击a链接，让top-banner这个盒子隐藏起来（加隐藏类名）。
+        var closeBanner = document.getElementById("closeBanner");
+        var topBanner = document.getElementById("topBanner");
+        closeBanner.onclick = function () {
+            // 类控制
+            topBanner.className = " hide";
+
+        }
+
+
+    </script>
+</body>
+
+</html>
