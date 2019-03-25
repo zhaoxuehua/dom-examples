@@ -2,7 +2,6 @@
 dom study and some small examples
 
 for循环为文本框赋值取值案例 链接如下：
-
 https://zhaoxuehua.github.io/dom-examples/dom1/1
 
 关闭广告栏，点击关闭按钮，广告关闭
