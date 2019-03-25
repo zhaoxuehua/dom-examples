@@ -1,5 +1,6 @@
 # dom-examples
 dom study and some small examples
+
 for循环为文本框赋值取值案例 链接如下：
 
 https://zhaoxuehua.github.io/dom-examples/dom1/1
@@ -36,10 +37,13 @@ https://zhaoxuehua.github.io/dom-examples/dom1/12
 
 文本框获取焦点
 https://zhaoxuehua.github.io/dom-examples/dom1/13
+
  显示与隐藏盒子
 https://zhaoxuehua.github.io/dom-examples/dom1/14
+
 显示隐藏二维码
 https://zhaoxuehua.github.io/dom-examples/dom1/15
+
 用户注册案例
 https://zhaoxuehua.github.io/dom-examples/dom1/16
 
